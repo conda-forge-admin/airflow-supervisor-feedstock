@@ -27,6 +27,7 @@ requirements:
     - python >=${{ python_min }}
     - airflow-ha >=1.6.5,<1.7
     - airflow-pydantic >=1.7.0,<1.8
+    - jinja2 >=3
     - supervisor-pydantic >=1.5.1,<1.6
 
 tests:
